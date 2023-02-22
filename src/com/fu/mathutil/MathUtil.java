@@ -18,6 +18,11 @@ public class MathUtil {
         // TODO code application logic here
         long result = MathUtilLive.getFactorial(5);
         System.out.println("expected: 5! = 120; actual:" + result);
+        
+        System.out.println("expected: 6! = 720; actual:" + MathUtilLive.getFactorial(6));
+        System.out.println("expected: 0! = 1; actual:" + MathUtilLive.getFactorial(0));
+        System.out.println("expected: 1! = 1; actual:" + MathUtilLive.getFactorial(1));
+    
     }
     
 }
